@@ -11,25 +11,6 @@ int main()
 {
 	char str[100];
 	char str2[100];
-	int result = 0;
-
-	printf("문자열 입력 : ");
-	fgets(str, sizeof(str), stdin);
-
-	printf("문자열 입력 : ");
-	fgets(str2, sizeof(str2), stdin);
-
-	/*printf("문자열 길이 개수 : %d\n", my_strlen(str));
-	
-	printf("문자열을 복사한 개수 : %d\n", my_strcpy(str2, str));
-	printf("복사된 문자열 확인 : ");
-	fputs(str2, stdout);
-
-	printf("이어붙인 문자열 개수 : %d\n", my_strcat(str2, str));
-	printf("이어붙인 문자열 확인 : ");
-	fputs(str2, stdout);*/
-
-	printf("문자열 비교 결과 : %d\n", my_strcmp(str2, str));
 
 	return 1;
 }
